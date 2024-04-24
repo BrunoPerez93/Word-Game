@@ -1,0 +1,5 @@
+.background{
+  background-image: url('./assets/bg-guess-the-word.png');
+  height: 100vh;
+  background-size: cover;
+}
