@@ -26,7 +26,7 @@ const WordFind = () => {
         <p className='text-c-light-gray tracking-[5px] font-bold'>{word}</p>
       </div>
       <div>
-        <Tries word={word} fetchWord={fetchWord} />
+        <Tries word={word} fetchWord={fetchWord}  setWord={setWord}/>
       </div>
 
     </div>
